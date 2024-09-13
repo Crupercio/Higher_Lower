@@ -35,9 +35,9 @@ while not game_over:
 
 
 
-    print(f"Compare A: {data_a["name"]}, {data_a["description"]}, {data_a["country"]}.")
+    print(f"Compare A: {data_a["name"]}, {data_a["description"]}, from {data_a["country"]}.")
     print(art.vs)
-    print(f"Againts B: {data_b["name"]}, {data_b["description"]}, {data_b["country"]}.")
+    print(f"Againts B: {data_b["name"]}, {data_b["description"]}, from {data_b["country"]}.")
 
     a_followers = data_a["follower_count"]
     b_followers = data_b["follower_count"]
